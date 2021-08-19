@@ -20,6 +20,9 @@ margin-bottom: 24px;
  color: $color-text;
  margin-bottom: 40px;
 }
+.coming__img--responsive{
+  display: none;
+}
 .main__btn{
   @include btn-mix;
   padding: 14px 44px;
