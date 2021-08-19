@@ -1,0 +1,31 @@
+.easy__wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+}
+.easy__title{
+width: 445px;
+font-weight: 700;
+font-size: 45px;
+line-height: 48px;
+color: $color-black;
+margin-bottom: 24px;
+}
+.easy__text{
+  width: 445px;
+  font-family: 'Lexend Deca';
+  font-size: 15px;
+  line-height: 25px;
+ color: $color-text;
+ margin-bottom: 40px;
+}
+.main__btn{
+  @include btn-mix;
+  padding: 14px 44px;
+}
+.main__btn:hover{
+ @include main__btn-hover
+}
+.easy__img{
+  margin-left: auto;
+}

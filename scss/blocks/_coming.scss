@@ -1,0 +1,32 @@
+.coming__wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 200px;
+}
+.coming__title{
+width: 445px;
+font-weight: 700;
+font-size: 45px;
+line-height: 48px;
+color: $color-black;
+margin-bottom: 24px;
+}
+.coming__text{
+  width: 445px;
+  font-family: 'Lexend Deca';
+  font-size: 15px;
+  line-height: 25px;
+ color: $color-text;
+ margin-bottom: 40px;
+}
+.main__btn{
+  @include btn-mix;
+  padding: 14px 44px;
+}
+.main__btn:hover{
+ @include main__btn-hover
+}
+.coming__img{
+  margin-right: auto;
+}

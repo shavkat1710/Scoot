@@ -1,0 +1,97 @@
+.site__header{
+  // position: fixed;
+  z-index: 99;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.header__wrapper{
+  display: flex;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 21px;
+}
+.header__list{
+  @include list-mix;
+  display: flex;
+  align-items: center;
+  margin-left: 58px;
+}
+.header__list-item ~ .header__list-item{
+ margin-left: 32px;
+}
+.header__list-link{
+  @include link-mix;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: $color-text;
+}
+.header__list-link:hover{
+  color: #FCB72B;
+}
+.header__btn{
+  margin-left: auto;
+@include btn-mix;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+padding: 14px 39px;
+}
+.header__btn:hover{
+  border: #FCB72B 3px solid;
+  background-color: #FFFFFF;
+  color: #FCB72B;
+  padding: 11px 36px;
+}
+.header-wrapper__hamburger-button{
+ border: none ;
+ background-color:transparent;
+display: none;
+ }
+.header-wrapper__hamburger-img{
+  display: block;
+}
+
+@include breakpoint-down(670px){
+  .header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 21px;
+    padding-right: 35px;
+  }
+  .header__list{
+    display: none;
+  }
+  .header__btn{
+    display: none;
+  }
+  .header-wrapper__hamburger-button{
+    display: block;
+  }
+  .header-wrapper__hamburger-img{
+    display: block;
+    width: 25px;
+    height: 20px;
+  }
+}
+@include breakpoint-down(550px){
+.header__logo-img{
+  display: block;
+ width: 90px;
+ height: 25px;
+ }
+}
+@include breakpoint-down(450px){
+.header-wrapper__hamburger-img{
+ display: block;
+ width: 20px;
+ height: 16px;
+}
+.header__logo-img{
+width: 75px;
+height: 20px;
+}
+}
