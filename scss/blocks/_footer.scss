@@ -24,6 +24,9 @@ font-style: 15px;
 line-height: 0px;
 
 }
+.footer__social-link{
+  text-decoration: none;
+}
 .footer__list-link{
   @include link-mix;
   font-weight: 700;
