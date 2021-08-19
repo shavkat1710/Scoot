@@ -29,4 +29,13 @@ margin-bottom: 24px;
 }
 .coming__img{
   margin-right: auto;
+  position: relative;
+  z-index: -5;
+}
+.coming__section{
+  background-image: url(.././image/coming__arrow__img.png),
+  url(.././image/empty__img.png) ;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 660px) 0,calc(50% - 790px) 0px;
+  
 }

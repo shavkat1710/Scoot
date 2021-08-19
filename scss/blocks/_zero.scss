@@ -29,4 +29,15 @@ margin-bottom: 24px;
 }
 .zero__img{
   margin-left: auto;
+  position: relative;
+  z-index: -5;
+}
+
+
+.zero__section{
+  background-image: url(.././image/easy-arrow.png),
+  url(.././image/empty__img.png) ;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 740px) 70px,calc(50% + 790px) 0px;
+  
 }
