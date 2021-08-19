@@ -438,7 +438,7 @@ content: '';
   .first__btn:hover{
     background-color: transparent;
     border: 3px solid #FCB72B;
-    color: #FCB72B;
+    color: $color-primary;
     padding: 11px 36px;
   }
   .first__wrapper{
@@ -464,7 +464,6 @@ content: '';
   font-size: 35px;
   line-height: 35px;
   letter-spacing:-1.79px ;
-  color: #FFFFFF;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -476,7 +475,6 @@ content: '';
     font-family: 'Lexend Deca';
     font-size: 14px;
     line-height: 22px;
-  color: #FFFFFF;
   display: flex;
   text-align: center;
   margin-right: auto;
@@ -505,7 +503,6 @@ content: '';
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  color: #FFFFFF;
   padding: 12px 37px;
   margin-top: 34px;
   display: block;
@@ -515,7 +512,7 @@ content: '';
   .first__btn:hover{
     background-color: transparent;
     border: 3px solid #FCB72B;
-    color: #FCB72B;
+    color: $color-primary;
     padding: 11px 36px;
   }
   .first__wrapper{
